@@ -8,3 +8,57 @@ li{
 p{
     font-size: 20px;
 }
+
+.socials{
+    display: flex; 
+    justify-content: center;
+    margin-top: auto;
+}
+
+.socials a{
+    font-size: 25px;
+    text-align: center;
+    transition: all;
+    margin-top: 20px;
+    transition: all 2s;
+}
+
+
+.socials a .fa-solid {
+    font-size: 40px;
+    color: rgb(90, 143, 197);
+}
+
+.socials a .fa-brands.fa-whatsapp{
+    font-size: 40px; 
+    color: rgb(22, 212, 32);
+}
+
+.socials a .fa-brands.fa-github{
+    margin-left: 20px;
+}
+
+.socials a:hover{
+    font-size: 80px;
+    top:-20px;
+}
+
+.btm1{
+    display: flex; 
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-right:50px;
+    color:chartreuse;
+}
+
+.btm1 ul a{
+    color: rgb(218, 189, 153);
+    font-size: 20px;
+    margin-left:0px;
+    margin-right: 40px;
+    transition: all 50ms;
+}
+
+.btm ul a :hover{
+
+}

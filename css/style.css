@@ -1,3 +1,12 @@
+.intro{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
 ul{
     font-size: 10px;
     list-style:none;
@@ -20,7 +29,7 @@ p{
     text-align: center;
     transition: all;
     margin-top: 20px;
-    transition: all 2s;
+    transition: all 0.5s;
 }
 
 
@@ -39,8 +48,8 @@ p{
 }
 
 .socials a:hover{
-    font-size: 80px;
-    top:-20px;
+    /* font-size: 80px; */
+    scale: 1.5  ;
 }
 
 .btm1{
@@ -48,17 +57,21 @@ p{
     justify-content:space-between;
     margin-left: 30px;
     margin-right:50px;
-    color:chartreuse;
+    color:rgb(135, 218, 211);
 }
 
-.btm1 ul a{
+.btm1 ul li a{
     color: rgb(218, 189, 153);
     font-size: 20px;
     margin-left:0px;
     margin-right: 40px;
+    margin-top: 10px;
     transition: all 50ms;
 }
 
-.btm ul a :hover{
-
+.resume a{
+    font-size: 30px; 
+    color: rgb(52, 212, 199);
+    position: relative;
+    transition: all 0.5s;
 }

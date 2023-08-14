@@ -1,3 +1,10 @@
+body{
+    width: 1440px;
+}
+
+
+
+
 .intro{
     display: flex; 
     flex-direction: column; 
@@ -19,14 +26,15 @@ p{
 .socials{
     display: flex; 
     justify-content: center;
-    margin-top: auto;
+    margin : auto;
+    
 }
 
 .socials a{
-    font-size: 25px;
+    font-size:40px;
     text-align: center;
     transition: all;
-    margin-top: 20px;
+    margin : 10px;
     transition: all 0.5s;
 }
 
@@ -78,8 +86,11 @@ p{
     display:flex;
     justify-content:space-evenly;
     margin-top: 50px;
-    flex-direction:row;
-    
+    flex-direction:row;    
+}
+
+#skills header{
+    font-size: 25px;
 }
 
 #skills button{
@@ -169,13 +180,15 @@ p{
     list-style-type: disc;
 }
 
-#about{
-    display: flex;
-    color:rgb(206, 214, 87);
-}
-
 #ab_me{
     margin-left: 15px;
+}
+
+#resume{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
 }
 
 @keyframes load {

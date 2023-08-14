@@ -164,6 +164,20 @@ p{
     animation: load 1.5s normal forwards;
 }
 
+
+#ec{
+    list-style-type: disc;
+}
+
+#about{
+    display: flex;
+    color:rgb(206, 214, 87);
+}
+
+#ab_me{
+    margin-left: 15px;
+}
+
 @keyframes load {
     0% { width: 0; }
     100% { width: 75%; }

@@ -2,9 +2,6 @@ body{
     width: 1440px;
 }
 
-
-
-
 .intro{
     display: flex; 
     flex-direction: column; 
@@ -14,13 +11,13 @@ body{
 
 ul{
     font-size: 10px;
-    list-style:none;
 }
 li{
     font-size: 20px;
 }
 p{
     font-size: 20px;
+    color:rgb(215, 230, 84);
 }
 
 .socials{
@@ -176,11 +173,19 @@ p{
 }
 
 
-#ec{
+.ec{
+    display:block;
     list-style-type: disc;
+    color: coral;
+    text-decoration: none;
+}
+
+.about{
+    width: 720px;
 }
 
 #ab_me{
+    color: yellowgreen;
     margin-left: 15px;
 }
 
@@ -189,6 +194,11 @@ p{
     justify-content: center;
     text-align: center;
     justify-items: center;
+}
+
+.project{
+    display: flex; 
+    justify-content: space-between;
 }
 
 @keyframes load {
